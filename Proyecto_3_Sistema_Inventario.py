@@ -45,7 +45,7 @@ while True:
             if not encontrado:
                 print("Producto no encontrado.")
         else:
-            print("No hay productos para eliminar en la lista")        
+            print("No hay productos en la lista")        
     elif opcion == 4:
         if len(Lista_Productos) !=0:
             nombre = input("Ingrese el nombre del producto a cambiar la cantidad ")
@@ -63,7 +63,7 @@ while True:
             if not encontrado:
                 print("Producto no encontrado.")
         else:
-            print("No hay productos para eliminar en la lista")                
+            print("No hay productos en la lista")                
     elif opcion == 5:
         if len(Lista_Productos) !=0:
             nombre = input("Ingrese el nombre a eliminar ")
